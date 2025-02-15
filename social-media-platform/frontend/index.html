@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="login()">Login</button>
+        <p>Don't have an account? <a href="#">Register</a></p>
+    </div>
+    <div class="post-container">
+        <textarea id="postContent" placeholder="Write a post..."></textarea>
+        <button onclick="createPost()">Post</button>
+    </div>
+    
+    <div id="posts"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
